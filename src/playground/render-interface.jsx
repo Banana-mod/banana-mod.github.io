@@ -269,9 +269,9 @@ class Interface extends React.Component {
     }
     handleUpdateProjectTitle(title, isDefault) {
         if (isDefault || !title) {
-            document.title = `Snail IDE - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
+            document.title = `MerrCode - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
         } else {
-            document.title = `${title} - Snail IDE`;
+            document.title = `${title} - MerrCode`;
         }
     }
     render() {
@@ -416,7 +416,7 @@ class Interface extends React.Component {
                                 <p>
                                     <FormattedMessage
                                         // eslint-disable-next-line max-len
-                                        defaultMessage="Snail IDE is a mod of Penguinmod to add new blocks and features either in extensions or in Snail IDE's main toolbox. PenguinMod is a TurboWarp mod that adds features for advanced use. Try it out by choosing an uploaded project below or making your own in the editor."
+                                        defaultMessage="MerrCode is a mod of Snail IDE to add new blocks and features either in extensions or in MerrCode's main toolbox. PenguinMod is a TurboWarp mod that adds features for advanced use. Try it out by choosing an uploaded project below or making your own in the editor."
                                         description="Description of PenguinMod and TurboWarp"
                                         id="tw.home.description"
                                     />

@@ -39,7 +39,7 @@ import styles from './interface.css';
 
 const messages = defineMessages({
     defaultTitle: {
-        defaultMessage: 'A mod of TurboWarp',
+        defaultMessage: 'A mod of PenginMod',
         description: 'Title of homepage',
         id: 'tw.guiDefaultTitle'
     }
@@ -71,9 +71,9 @@ class Interface extends React.Component {
     }
     handleUpdateProjectTitle(title, isDefault) {
         if (isDefault || !title) {
-            document.title = `Snail IDE - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
+            document.title = `MerrCode - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
         } else {
-            document.title = `${title} - Snail IDE`;
+            document.title = `${title} - MerrCode`;
         }
     }
     render() {
