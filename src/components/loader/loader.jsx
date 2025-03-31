@@ -7,7 +7,7 @@ import styles from './loader.css';
 import PropTypes from 'prop-types';
 import bindAll from 'lodash.bindall';
 import { tip } from '../../lib/randomUnhelpfulTip';
-import snail from './snail.svg'
+import snail from './fox.svg'
 
 import * as progressMonitor from './tw-progress-monitor';
 

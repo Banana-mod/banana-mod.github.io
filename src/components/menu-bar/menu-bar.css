@@ -3,6 +3,9 @@
 @import "../../css/z-index.css";
 
 .menu-bar {
+    border-radius: $form-radius;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,7 +27,7 @@
         but fixes [FFx + Safari] [resize window down + scroll to the right] bug.
         width: 100%;
     */
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: monospace;
     font-size: $menu-bar-standard-font-size;
     font-weight: bold;
     background-color: $motion-primary;
@@ -87,6 +90,7 @@
 .menu-bar-item.active,
 .menu-bar-item.hoverable:hover {
     background-color: $ui-black-transparent;
+    border-radius:$form-radius;
 }
 
 .menu-bar-item.growable {

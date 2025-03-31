@@ -176,7 +176,7 @@ const manifest = {
       "name": "events",
       "id": "events-color",
       "type": "color",
-      "default": "#FFBF00",
+      "default": "#fed24d",
       "allowTransparency": true
     },
     {
@@ -300,7 +300,7 @@ const manifest = {
   "tags": [
     "theme"
   ],
-  "enabledByDefault": false,
+  "enabledByDefault": true,
   "presets": [
     {
       "name": "3.0 Tweaks",

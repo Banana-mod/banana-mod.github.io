@@ -896,11 +896,7 @@ class MenuBar extends React.Component {
                         <TWSaveStatus />
                     </div>
 
-                    <a href={this.props.username ? `https://www.snail-ide.com/profile?user=${this.props.username}` : `https://www.snail-ide.com/sign-in`}>
-                        <div className={classNames(styles.menuBarItem, styles.hoverable)}>
-                            {this.props.username ? this.props.username : 'Sign in/Join'}
-                        </div>
-                    </a>
+                    
                 </div>
 
                 {aboutButton}

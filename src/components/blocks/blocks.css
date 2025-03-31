@@ -92,6 +92,7 @@
 */
 .blocks :global(.scratchCategoryMenuItemLabel) {
     font-size: 0.65rem;
+    border-top-left-radius:$form-radius;
 }
 
 .blocks :global(.blocklyMinimalBody) {

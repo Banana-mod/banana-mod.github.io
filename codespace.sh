@@ -1,6 +1,3 @@
-#a thing to setup snail ide on gh codespaces
-npm i -g pnpm
-pnpm up
 pnpm i --shamefully-hoist
 export NODE_OPTIONS=--openssl-legacy-provider
 npm start

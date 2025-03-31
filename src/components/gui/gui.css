@@ -67,14 +67,15 @@
     /* Overrides for react-tabs styling */
     margin: 0 !important;
     border-bottom: 0 !important;
+    margin-left:8px;
 }
 
 .tab {
     flex-grow: 1;
     height: 80%;
-    margin-bottom: 0;
+    margin-bottom: 3px;
 
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 1rem;
     border: 1px solid $ui-black-transparent;
 
     padding: 0.125rem 1.25rem 0;
@@ -89,7 +90,10 @@
 
     user-select: none;
     white-space: nowrap;
+
+    margin-left:10px;
 }
+
 [theme="dark"] .tab {
     color: $text-primary;
 }
@@ -122,7 +126,7 @@
 }
 
 .tab:hover {
-  background-color: $ui-primary;
+  background-color: lightgrey;
 }
 [theme="dark"] .tab:hover {
     background-color: $ui-secondary;
@@ -200,6 +204,8 @@
 .blocks-wrapper {
     flex-grow: 1;
     position: relative;
+    margin:8px;
+    border-radius:$form-radius;
 }
 
 .stage-and-target-wrapper {
@@ -246,9 +252,10 @@
     right: 0;
     z-index: $z-index-extension-button;
     background: $motion-primary;
-
+    margin:8px;
     border: 1px solid $motion-primary;
     box-sizing: content-box; /* To match scratch-block vertical toolbox borders */
+    border-bottom-left-radius:$form-radius;
 }
 
 $fade-out-distance: 15px;
