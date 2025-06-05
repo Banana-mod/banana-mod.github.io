@@ -21,7 +21,7 @@ const manuallyTrustExtension = url => {
  * @returns {boolean} True if the extension can is trusted
  */
 const isTrustedExtension = url => (
-    // Always trust our official extension repostiory.
+    // Always trust our official extension repository.
     url.startsWith('https://extensions.turbowarp.org/') ||
     url.startsWith('https://extensions.penguinmod.com/') ||
     url.startsWith('https://snail-ide.js.org/') ||
@@ -37,6 +37,7 @@ const isTrustedExtension = url => (
     url.startsWith('https://adacraft.notion.site/') ||
     url.startsWith('https://adacraft.org/') ||
     url.startsWith('https://raw.githubusercontent.com/khanning/scratch-extensions/master/') ||
+    url.startsWith('https://banana-mod.github.io/') ||
 
     // For development.
     url.startsWith('http://localhost:8000/') ||
