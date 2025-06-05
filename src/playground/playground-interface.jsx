@@ -39,7 +39,7 @@ import styles from './interface.css';
 
 const messages = defineMessages({
     defaultTitle: {
-        defaultMessage: 'A mod of PenginMod',
+        defaultMessage: 'A mod of Snail-ide',
         description: 'Title of homepage',
         id: 'tw.guiDefaultTitle'
     }
@@ -71,9 +71,9 @@ class Interface extends React.Component {
     }
     handleUpdateProjectTitle(title, isDefault) {
         if (isDefault || !title) {
-            document.title = `MerrCode - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
+            document.title = `Banana-mod - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
         } else {
-            document.title = `${title} - MerrCode`;
+            document.title = `${title} - Banana-mod`;
         }
     }
     render() {
