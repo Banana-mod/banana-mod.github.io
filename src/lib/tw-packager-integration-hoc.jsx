@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import log from './log';
 import {getIsShowingProject} from '../reducers/project-state';
 
-const PACKAGER_URL = 'https://snail-ide.js.org/Snail-IDE-Packager';
-const PACKAGER_ORIGIN = "https://editor.snail-ide.com";
+const PACKAGER_URL = 'https://banana-mod.github.io/packager';
+const PACKAGER_ORIGIN = "https://banana-mod.github.io";
 
 const readBlobAsArrayBuffer = blob => new Promise((resolve, reject) => {
     const fr = new FileReader();
