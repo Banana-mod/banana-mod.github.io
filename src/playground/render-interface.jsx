@@ -416,7 +416,7 @@ class Interface extends React.Component {
                                 <p>
                                     <FormattedMessage
                                         // eslint-disable-next-line max-len
-                                        defaultMessage="MerrCode is a mod of Snail IDE to add new blocks and features either in extensions or in MerrCode's main toolbox. PenguinMod is a TurboWarp mod that adds features for advanced use. Try it out by choosing an uploaded project below or making your own in the editor."
+                                        defaultMessage="Banana-mod is a mod of Snail IDE to add new blocks and features either in extensions or in Banana-mod's main toolbox. PenguinMod is a TurboWarp mod that adds features for advanced use. Try it out by choosing an uploaded project below or making your own in the editor."
                                         description="Description of PenguinMod and TurboWarp"
                                         id="tw.home.description"
                                     />
