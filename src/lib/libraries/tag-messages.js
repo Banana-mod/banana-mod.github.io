@@ -151,6 +151,11 @@ export default defineMessages({
         description: 'Tag for filtering a library by Scratch',
         id: 'gui.libraryTags.scratch'
     },
+    'banana-mod': {
+        defaultMessage: 'Banana-mod',
+        description: 'Tag for filtering a library by Banana-mod',
+        id: 'gui.libraryTags.banana-mod'
+    },
     turbowarp: {
         defaultMessage: 'TurboWarp',
         description: 'Tag for filtering a library by TurboWarp',
@@ -171,6 +176,7 @@ export default defineMessages({
         description: 'Tag for filtering a library by categoryhardware',
         id: 'gui.libraryTags.hardware'
     },
+    
     other_mods: {
         defaultMessage: 'Other Mods',
         description: 'Extensions from other mods (not counting turbowarp)',
