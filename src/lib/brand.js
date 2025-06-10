@@ -1,1 +1,1 @@
-export const APP_NAME = 'Snail IDE';
+export const APP_NAME = 'Banana-mod';
