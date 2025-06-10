@@ -150,6 +150,34 @@ const IsLiveTests = urlParams.has('livetests');
 
 const menuItems = [
     {
+        name: 'Meme Extesnion',
+        extensionId: 'https://banana-mod.github.io/MemeExtension/MemeExtension.js',
+        iconURL: 'https://banana-mod.github.io/MemeExtension/memeextension.svg',
+        collaborator: 'Banana-mod',
+        tags: ['bananamod'],
+        description: 'Get fresh baked memes.',
+        featured: true
+    },
+
+    {
+        name: 'BlockBeat',
+        extensionId: 'https://banana-mod.github.io/BlockBeat/blockBeat.js',
+        iconURL: 'https://banana-mod.github.io/BlockBeat/blockBeat.svg',
+        collaborator: 'Banana-mod',
+        tags: ['bananamod'],
+        description: 'Play the coolest beats using bytebeat.',
+        featured: true
+    },
+    {
+        name: 'Italian Brainrot Extension',
+        extensionId: 'https://banana-mod.github.io/Italian-Brainrot-Extension/italianbrainrot.js',
+        iconURL: 'https://banana-mod.github.io/Italian-Brainrot-Extension/itbr.svg',
+        collaborator: 'Banana-mod',
+        tags: ['bananamod'],
+        description: 'Let the brainrot enter!',
+        featured: true
+    },
+    }
         name: (
             <FormattedMessage
                 defaultMessage="Music"
@@ -171,27 +199,6 @@ const menuItems = [
         ),
         featured: true
     },
-
-    {
-        name: 'Meme Extesnion',
-        extensionId: 'https://banana-mod.github.io/MemeExtension/MemeExtension.js',
-        iconURL: 'https://banana-mod.github.io/MemeExtension/memeextension.svg',
-        collaborator: 'Banana-mod',
-        tags: ['bananamod'],
-        description: 'Get fresh baked memes.',
-        featured: true
-    },
-
-    {
-        name: 'BlockBeat',
-        extensionId: 'https://banana-mod.github.io/BlockBeat/blockBeat.js',
-        iconURL: 'https://banana-mod.github.io/BlockBeat/blockBeat.svg',
-        collaborator: 'Banana-mod',
-        tags: ['bananamod'],
-        description: 'Play the coolest beats using bytebeat.',
-        featured: true
-    },
-
     {
         name: '3D',
         extensionId: 'jg3d',
