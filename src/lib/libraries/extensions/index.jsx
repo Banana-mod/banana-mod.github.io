@@ -177,7 +177,7 @@ const menuItems = [
         extensionId: 'https://banana-mod.github.io/MemeExtension/MemeExtension.js',
         iconURL: 'https://banana-mod.github.io/MemeExtension/memeextension.svg',
         collaborator: 'Banana-mod',
-        tags: ['banana-mod'],
+        tags: ['bananamod'],
         description: 'Get fresh baked memes.',
         featured: true
     },
@@ -187,7 +187,7 @@ const menuItems = [
         extensionId: 'https://banana-mod.github.io/BlockBeat/blockBeat.js',
         iconURL: 'https://banana-mod.github.io/BlockBeat/blockBeat.svg',
         collaborator: 'Banana-mod',
-        tags: ['banana-mod'],
+        tags: ['bananamod'],
         description: 'Play the coolest beats using bytebeat.',
         featured: true
     },
