@@ -150,7 +150,7 @@ const IsLiveTests = urlParams.has('livetests');
 
 const menuItems = [
     {
-        name: 'Meme Extesnion',
+        name: 'Meme Extension',
         extensionId: 'https://banana-mod.github.io/MemeExtension/MemeExtension.js',
         iconURL: 'https://banana-mod.github.io/MemeExtension/memeextension.svg',
         collaborator: 'Banana-mod',
@@ -158,7 +158,6 @@ const menuItems = [
         description: 'Get fresh baked memes.',
         featured: true
     },
-
     {
         name: 'BlockBeat',
         extensionId: 'https://banana-mod.github.io/BlockBeat/blockBeat.js',
@@ -177,7 +176,7 @@ const menuItems = [
         description: 'Let the brainrot enter!',
         featured: true
     },
-    }
+    {
         name: (
             <FormattedMessage
                 defaultMessage="Music"
@@ -203,9 +202,9 @@ const menuItems = [
         name: '3D',
         extensionId: 'jg3d',
         iconURL: jg3dExtensionIcon,
-        tags: ['penguinmod'],
-        customInsetColor: '#B200FF',
         insetIconURL: jg3dInsetExtensionIcon,
+        customInsetColor: '#B200FF',
+        tags: ['penguinmod'],
         description: 'Use the magic of 3D to spice up your project.',
         collaborator: 'PenguinMod',
         featured: true
