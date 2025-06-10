@@ -11,6 +11,11 @@ export default defineMessages({
         description: 'Tag for filtering a library for animals',
         id: 'gui.libraryTags.animals'
     },
+    categoryai: {
+        defaultMessage: 'AI',
+        description: 'ai tag',
+        id: 'gui.libraryTags.ai'
+    },
     dance: {
         defaultMessage: 'Dance',
         description: 'Tag for filtering a library for dance',
