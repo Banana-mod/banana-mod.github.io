@@ -159,21 +159,12 @@ const menuItems = [
         featured: true
     },
     {
-        name: 'BlockBeat',
-        extensionId: 'https://banana-mod.github.io/BlockBeat/blockBeat.js',
-        iconURL: 'https://banana-mod.github.io/BlockBeat/blockBeat.svg',
-        collaborator: 'Banana-mod',
-        tags: ['bananamod'],
-        description: 'Play the coolest beats using bytebeat.',
-        featured: true
-    },
-    {
         name: 'Italian Brainrot Extension',
         extensionId: 'https://banana-mod.github.io/Italian-Brainrot-Extension/italianbrainrot.js',
         iconURL: 'https://banana-mod.github.io/Italian-Brainrot-Extension/itbr.svg',
         collaborator: 'Banana-mod',
         tags: ['bananamod'],
-        description: 'Let the brainrot enter!',
+        description: 'Let the italian brainrot enter!',
         featured: true
     },
     {
