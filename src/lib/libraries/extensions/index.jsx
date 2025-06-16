@@ -1153,6 +1153,29 @@ const menuItems = [
         tags: ['penguinmod'],
         featured: true
     },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Banana-mod Extension Gallery"
+                description="idk"
+                id="bm.extensionGallery.name"
+            />
+        ),
+        href: 'https://banana-mod.github.io/extension-galery/',
+        extensionId: 'special_banana_mod',
+        iconURL: "https://banana-mod.github.io/extension-galery/logo.svg",
+        description: (
+            <FormattedMessage
+                // eslint-disable-next-line max-len
+                defaultMessage="idk"
+                description="idk"
+                id="bm.extensionGallery.description"
+            />
+        ),
+        tags: ['banana-mod'],
+        featured: true
+    },
+
 
     // https://extensions.turbowarp.org/shreder95ua/resolution.js
     {
