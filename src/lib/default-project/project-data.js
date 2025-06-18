@@ -3,7 +3,7 @@ import sharedMessages from '../shared-messages';
 
 let messages = defineMessages({
     variable: {
-        defaultMessage: '🐌',
+        defaultMessage: '🍌',
         description: 'Name for the default variable',
         id: 'gui.defaultProject.variable'
     }
@@ -27,7 +27,7 @@ const projectData = translateFunction => {
                 isStage: true,
                 name: 'Stage',
                 variables: {
-                    '`jEk@4|i[#Fk?(8x)AV.-my variable': [
+                    '`jEk@4|i[#Fk?(8x)AV.-variable': [
                         translator(messages.variable),
                         0
                     ]
