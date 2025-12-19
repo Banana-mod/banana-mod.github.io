@@ -13,7 +13,7 @@ const messages = defineMessages({
     defaultProjectTitle: {
         id: 'tw.gui.defaultProjectTitle',
         description: 'Default title for project',
-        defaultMessage: 'Project'
+        defaultMessage: 'Banana-ject'
     }
 });
 
