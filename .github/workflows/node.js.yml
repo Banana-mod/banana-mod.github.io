@@ -1,4 +1,4 @@
-name: Deploy Pages
+name: Run this for build and deploy
 
 on:
   workflow_dispatch:
